@@ -119,7 +119,13 @@ function makeSinewave() {
   for (var i = 0; i < sineColors.length; i++) {
     var amount = 500;
     var frequency = sineColors[i].density / 5;
-    var offset = sineColors[i].density * 1000;
+    var maxOffset = 400;
+    var incomingOffset = sineColors[i].density * 1000;
+    if(incomingOffset < 400) {
+      var offset = incomingOffset;
+    } else {
+      var offset = 400;
+    }
     strokeWeight(sineColors[i].density + 5);
     stroke(sineColors[i].color);
     var startY = height / 2;
