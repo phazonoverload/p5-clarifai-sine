@@ -16,6 +16,10 @@ span {
 	color: white;
 	padding-right: 1em;
 }
+a {
+	color: white;
+	margin-left: 1em;
+}
 button {
     padding: 0.5em;
     background: white;
