@@ -12,6 +12,19 @@
 	padding: 1em;
 	text-align: center;
 }
+.footer {
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	padding: 1em;
+	text-align: center;
+}
+.footer p {
+	color: white;
+	margin-bottom: 0.5em;
+	margin-top: 0.125em;
+}
 span {
 	color: white;
 	padding-right: 1em;
